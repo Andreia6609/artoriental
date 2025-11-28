@@ -1,0 +1,48 @@
+      body { 
+    background-color: #edf4cd;
+    color: rgb(12, 11, 11);
+}
+
+
+header h2{
+    color:#c30505;
+}
+
+.servicos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.card{
+    background-color: #ffffff15;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+
+.card img{
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card p{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card span{
+    display: block;
+    margin-top: 5px;
+    font-size: 25px;
+    color: #937207;
+}
+
+    
+
+    
