@@ -51,11 +51,6 @@ app.get('/cadastro', (req, res) => {
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });
-
-// Iniciar servidor
-app.listen(3000, () => {
-    console.log('Servidor rodando em http://localhost:3000/');
-});
 // Rota para adicionar usuário
 app.post('/cadastro', (req, res) => {
 
@@ -75,4 +70,9 @@ app.post('/cadastro', (req, res) => {
         res.json({ message: 'Usuário cadastrado com sucesso!', id: result.insertId });
     });
 
+});
+
+// Iniciar servidor
+app.listen(3000, () => {
+    console.log('Servidor rodando em http://localhost:3000/');
 });
